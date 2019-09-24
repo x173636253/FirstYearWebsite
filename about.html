@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>Contact</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+		.img {
+			padding: 1%;
+			height: 45%;
+			width: 100%;
+			}
+		img	{
+			padding: 1%;
+			height: 45%;
+			width: 30%;
+			
+			}
+		li {
+			padding: 10px;
+			display: inline;
+			
+		}
+		
+		ul {
+			
+			padding: 19px;
+			list-style-type: none;
+			margin: 0;
+			padding: 10px;
+		}
+		
+		#bodydiv {
+			padding: 20px;
+			background: #FEFBE8;
+			max-width: 80%; 
+			position: absolute;
+			left:10%;
+			top: 20%;
+			border: 1px solid black;
+			}
+			
+		#nav {	position: absolute;
+				left:30%;
+				top:2%;
+				font-weight:bold;
+	font-size:18px;
+	text-decoration:none;
+			}
+		
+		#bannername {font-size: 3em;
+		position:absolute;
+		left: 10%;
+		}	
+			body{
+	background: #F1F0D1;
+	font-family:verdan, tahoma, arial, sans-serif;
+	font-size:18px;
+	overflow:auto;
+		</style>
+		<script>
+		function contactWelcome() {
+		alert("We hope this information is useful.");
+}
+        function homeWelcome() {
+		alert("Welcome to our Home page.");
+}
+function productWelcome() {
+		alert("Here you can browse our companies products.");
+}
+
+		</script>
+	</head>
+
+	<body> 
+	<div id="bannername">
+	<p><b>Tecseal LTD</b></p>
+	</div>
+	
+		
+	<div id="bodydiv">
+		<div id="nav">
+			<ul>
+				<li class="active" onclick="homeWelcome()"><a href="index.html">Home</a></li>
+				<li class="active" onclick="productWelcome()"><a href="productRange.html">Products</a></li>
+				<li class="active" onclick="contactWelcome()"><a href="contact.html">Contact</a></li>
+				<li class="active" onclick="aboutWelcome()"><a href="about.html">About</a></li>
+			</ul>
+			</div>
+		
+		<h1>About Tecseal LTD</h1>
+		<div class="textbox">
+		<h4 class="text">Tecseal was founded in 1986 and is the work of its untiring creator, Brian O'Byrne. Today Tecseal excels as a unique product sourcing, problem solving and design service.</h4>
+		</div>
+		<div class="img">
+		<img src="bmw.jpg" alt="posh bmw">
+		<img src="talk.png" alt="talking people">
+		<img src="handshake.jpg" alt="success">
+		</div>
+		<div class="textbox">
+		<h4 class="text">Tecseal is operated by its two directors Brian O'Byrne and his partner Niamh Mcgovern. Together they bring experience and panache that leaves every job done in exceptional fashion.</h4>
+		</div>
+</div>
+		<!--Content goes here-->
+
+	</body>
+	
+		
+		
+		
+</html>

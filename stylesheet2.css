@@ -1,0 +1,52 @@
+.table1 {padding:1% ;}
+		
+		.inputbox {padding: 10px;}
+		
+		td {padding: 10px;}
+		
+		li {
+			padding: 19px;
+			display: inline;
+			
+		}
+		
+		ul {
+			
+			padding: 19px;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		#bannername {font-size: 3em;
+		position:absolute;
+		left: 10%;
+		}
+		
+		#bodydiv {
+			padding: 20px;
+			background: #FEFBE8;
+			max-width: 80%; 
+			position: absolute;
+			left:10%;
+			top: 15%;
+			height: 75%;
+			border: 1px solid black;
+			}
+		
+		#nav {	 
+				position: absolute;
+				left:30%;
+				top:2%;
+				background: #FEFBE8;
+				color:#878e63;
+				font-weight:bold;
+	font-size:18px;
+	text-decoration:none;
+		}
+		
+		body{
+	background: #F1F0D1;
+	font-family:verdan, tahoma, arial, sans-serif;
+	font-size:18px;
+	overflow:auto;

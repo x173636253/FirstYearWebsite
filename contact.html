@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="stylesheet2.css">
+		<title> Contact page </title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style> 
+		</style>
+		<script>
+		// http://webdesignpub.com/html-contact-form-captcha/
+		
+	<!-- the following function was cleared by two html validators and produced no errors, yet it doesn't function as intended -->
+	
+	/*function check_info() {
+			var first-name = document.getElementById('first-name').value;
+			var surname = document.getElementById('surname').value;
+			var email = document.getElementById('email').value;
+			var phoneinput = document.getElementById('phoneinput').value;
+			
+			
+			if(first-name=="" || surname=="" || email=="" || phoneinput==""){
+				alert('Please fill in requested data');
+				return false;
+			}
+			else{
+				return true;
+			}
+		}
+		*/
+		/*These functions are simple pop-up alerts */
+		
+}
+
+function homeWelcome() {
+		alert("Welcome to our Home page.");
+}
+
+function productWelcome() {
+		alert("Here you can browse our companies products.");
+}
+
+function aboutWelcome() {
+		alert("Our background as a company can be found here.");
+}
+
+</script>
+	</head>
+
+	<body> 
+	<div id="bannername">
+	<p><b>Tecseal LTD</b></p>
+	</div>
+		
+	<div id="bodydiv">
+	<div id="nav">
+		
+	<ul>
+		<li class="active" onclick="homeWelcome()"><a href="index.html">Home</a></li>
+		<li class="active" onclick="productWelcome()"><a href="productRange.html">Products</a></li>
+		<li class="active" onclick="contactWelcome()"><a href="contact.html">Contact</a></li>
+		<li class="active" onclick="aboutWelcome()"><a href="about.html">About</a></li>
+	</ul>
+
+	</div>
+	
+	<div id="contactdetails">
+	<table class="table1">
+		<tr>
+			<th>Phone Number:</th>
+			<td>087 272 3785</td>
+		</tr>
+		<tr>
+			<th>Email:</th>
+			<td>brian.tecseal@yahoo.ie</td>
+		</tr>
+		<tr>
+			<th>Postal Address:</th>
+			<td>The Moat<br/>Rathmolyon<br/>Enfield<br/>Co. Meath<br/>Ireland<br/></td>
+		</tr>
+		</table>
+		<p><b>Tecseal LTD encourages all of its clients and potential clients to speak to our members over the phone. We do not however accept text-messages.</b></p>
+		<p>You can directly submit a message to Tecseal, by filling in the online form below:</p>
+		</div>
+		<div id="submissionform" >
+		<br/>
+		<form action="submission.html" method="post" >
+		<table class="table1" >
+		<tr>
+			<th>First-Name:</th>
+			<td class="inputbox"><input type="text" name="first-name"/></td>
+		</tr>
+		<tr>
+			<th>Surname:</th>
+			<td class="inputbox"><input type="text" name="surname"/></td>
+		</tr>
+		<tr>
+			<th>Email Address</th>
+			<td class="inputbox"><input type="text" name="email"/></td>
+		</tr>
+		<tr>
+			<th>Phone Number:</th>
+			<td class="inputbox"><input type="text" name="phoneinput"/></td>
+		</tr>
+		<tr>
+			<th>Query:</th>
+			<td><textarea></textarea></td>
+		</tr>
+		<tr>
+			<th>Final Submission:</th>
+			<td>
+				<!--<button onclick="check_info()"/>g</button>-->
+				<button onclick="positive()">Submit</button>
+			</td>
+		</tr>
+	</table>
+	</form>
+	</div>	
+	</div>
+	
+
+		<!--Content goes here-->
+
+	</body>
+</html>
